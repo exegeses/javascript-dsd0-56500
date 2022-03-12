@@ -13,3 +13,29 @@ body{
     font-family: Raleway, sans-serif;
     font-weight: 300;
 }
+nav{
+    padding: 10px;
+}
+
+nav a{
+    padding: 6px 16px;
+    background-color: #fff;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #444;
+    transition: 500ms;/* .5s */
+}
+nav .verde:hover{
+    background-color: rgb(175, 228, 100);
+}
+nav .naranja:hover{
+    background-color: rgb(228, 192, 100);
+}
+nav .celeste:hover{
+    background-color: rgb(100, 228, 215);
+}
+#caja{
+    width: 200px;
+    height: 200px;
+    background-color: #9f9f9f;
+}
