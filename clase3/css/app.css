@@ -39,3 +39,11 @@ nav .celeste:hover{
     height: 200px;
     background-color: #9f9f9f;
 }
+
+#sol{
+    width: 200px;
+    height: 200px;
+}
+    #sol img{
+        width: 200px;
+    }
