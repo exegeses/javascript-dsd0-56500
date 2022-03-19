@@ -22,3 +22,16 @@ function mostrar()
     //caja.style.opacity = '1'; 
     caja.style.display = 'block';
 }
+function mostrarOcultar()
+{
+    if (caja.style.display == 'none') {
+        //caja.style.display = 'block'
+        mostrar();
+    }
+    else {
+        //caja.style.display = 'none'
+        ocultar();
+    }
+}
+
+
