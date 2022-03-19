@@ -2,6 +2,14 @@
 let txt = document.getElementById('txt');
 
 //declaramos función de control
+function dosDigitos( numero )
+{
+    if( numero < 10 ){
+        numero = '0'+ numero;
+    }
+    return numero;
+}
+
 function reloj()
 {
     //creeamos objeto de fecha
@@ -11,19 +19,17 @@ function reloj()
     let horas = fecha.getHours();
     //obtenemos los minutos
     let minutos = fecha.getMinutes();
-    if( minutos < 10 ){
-        minutos = '0'+ minutos;
-    }
+    minutos = dosDigitos( minutos );
     //obtenemos los segundos
     let segundos = fecha.getSeconds();
-    if( segundos < 10 ){
-        segundos = '0'+ segundos;
-    }
+    segundos = dosDigitos( segundos );
 
     //mostrar la hora con formato
     // 16:09:23
     txt.innerText = horas +':'+ minutos +':'+ segundos;
 }
+
+
 
 //invocamos a la función reloj()
 reloj();
