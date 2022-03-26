@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&family=Nunito:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2em;
+    color: #444444;
+    font-weight: 300;
+}
+#contenedor{
+    font-size: 2em;
+    font-family: 'Monda', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+.txtSeparador{
+    width: 1rem;
+}
