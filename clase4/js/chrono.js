@@ -2,6 +2,8 @@ let txtHoras = document.querySelector('#txtHoras');
 let txtMinutos = document.querySelector('#txtMinutos');
 let txtSegundos = document.querySelector('#txtSegundos');
 let txtSeparador = document.querySelectorAll('.txtSeparador');
+console.log(txtSeparador);//HTMLCollection
+let cantidad = txtSeparador.length;
 
 let segundos = 0;
 let minutos = 0;
@@ -35,8 +37,11 @@ function chrono()
     horas = Math.trunc(minutos/60);
     txtHoras.innerText = dosDigitos( horas );
 
-    txtSeparador[0].innerText = blinker( segundos );
-    txtSeparador[1].innerText = blinker( segundos );
+    let i = 0;
+    while ( i < cantidad ){
+        txtSeparador[i].innerText = blinker( segundos );
+        i++;
+    }
 }
 
 setInterval( chrono, 1000 );
