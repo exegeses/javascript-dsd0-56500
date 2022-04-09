@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 600px;
+    margin: auto;
+    padding: 50px 26px;
+    background-color: rgb(225, 225, 225);
+    color: #444;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+}a
+nav{
+    padding: 10px;
+}
+
+nav a{
+    padding: 6px 16px;
+    background-color: #fff;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #444;
+    transition: 500ms;/* .5s */
+}
+nav .verde:hover{
+    background-color: rgb(175, 228, 100);
+}
+nav .naranja:hover{
+    background-color: rgb(228, 192, 100);
+}
+nav .celeste:hover{
+    background-color: rgb(100, 228, 215);
+}
+#caja{
+    width: 200px;
+    height: 200px;
+    background-color: #9f9f9f;
+}
+
+#sol{
+    width: 200px;
+    height: 200px;
+}
+    #sol img{
+        width: 200px;
+    }
+
+#dado img{
+    width: 200px;
+}
+button{
+    padding: 6px 12px;
+    margin: 20px;
+}
+.orange{
+    background-color: #f60;
+    width: 148px;
+    height: 36px;
+}
