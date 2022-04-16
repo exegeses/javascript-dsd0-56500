@@ -67,3 +67,6 @@ main {
         font-weight: 500;
         cursor: pointer;
     }
+    #cajaForm button:hover{
+        background-color: rgb(233, 133, 136);
+    }
