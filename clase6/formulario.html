@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <main>
+        <div id="cajaForm">
+            <form action="procesa.php" method="post" id="formulario">
+                <label>
+                    Nombre: <br>
+                    <input type="text" name="nombre">
+                    <span id="txtNombre"></span><br>
+                </label>
+                <label>
+                    Email: <br>
+                    <input type="text" name="email">
+                    <span id="txtEmail"></span><br>
+                </label>
+                <label>
+                    Comentarios: <br>
+                    <textarea name="comentarios"></textarea>
+                    <span id="txtComentarios"></span><br>
+                </label>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/formulario.js"></script>
+</body>
+</html>

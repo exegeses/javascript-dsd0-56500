@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+main {
+    /* background: #fff; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    /*overflow: hidden; */
+    background-image: url(../imgs/desktopbg.jpg);
+    background-size: cover;
+}
+/* caja del formulario */
+#cajaForm{
+    margin: 0px auto;
+    padding: 30px;
+    width: 450px;
+    height: 450px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+
+    #cajaForm input, #cajaForm textarea {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px 12px;
+        width: 100%;
+        min-height: 36px;
+        border: unset;
+        border-radius: 4px;
+        outline-color: rgb(255, 129, 137);
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(60, 66, 87, 0.16) 0px 0px 1px 1px;
+    }
+    #cajaForm textarea{
+        resize: none;
+        height: 110px;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    #cajaForm span {
+        display: block;
+        font-size: 14px;
+        height: 10px;
+        color: #ff5b6d;
+    }
+    #cajaForm label {
+        margin-bottom: 10px;
+    }
+    #cajaForm button {
+        display: inline-block;
+        width: 100%;
+        background-color: rgb(249, 141, 145);
+        border-radius: 4px;
+        border: none;
+        padding: 12px;
+        color: #fff;
+        font-weight: 500;
+        cursor: pointer;
+    }

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 600px;
+    margin: auto;
+    padding: 50px 26px;
+    background-color: rgb(225, 225, 225);
+    color: #444;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+}
+#cajaTexto{
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 36px;
+    border-radius: 16px;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+}
+button{
+    margin-top: 18px;
+    width: 100%;
+    background-color: #262626;
+    color: #f8f8f8;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+}
